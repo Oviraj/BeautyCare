@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:padding="20dp"
+        android:id="@+id/create_itedm"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="Developer info"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ovi Raj"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: solaiman.diu@gmail.com"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Phone: 01755199186"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Address: 44,Shukrabad, Mirpur Road, Dhaka"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ok"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:id="@+id/button_add_xml"
+        />
+</LinearLayout>

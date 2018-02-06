@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Services">
+            <menu>
+                <item
+                    android:id="@+id/nav_hair"
+                    android:title="Hair" />
+                <item
+                    android:id="@+id/nav_facial"
+                    android:title="Facial" />
+                <item
+                    android:id="@+id/nav_bridal"
+                    android:title="Bridal" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_booking"
+            android:title="Booking" />
+        <item
+            android:id="@+id/nav_adress"
+            android:title="Address" />
+        <item
+            android:id="@+id/nav_specialoffer"
+            android:title="Special Offer" />
+        <item
+            android:id="@+id/nav_gallary"
+            android:title="Photo Gallary" />
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share" />
+    </group>
+
+</menu>
